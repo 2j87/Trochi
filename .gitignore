@@ -8,6 +8,9 @@ fp-info-cache
 *.lck
 *~
 
+# KiCad local history (auto-generated, has its own embedded .git repo)
+.history/
+
 # KiCad project local settings
 *.kicad_prl
 
