@@ -497,6 +497,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1011,6 +1179,321 @@
 					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2097,10 +2580,28 @@
 		(uuid "0140d811-1310-445d-b0d2-cf763136b566")
 	)
 	(junction
+		(at 85.09 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03da2de6-3181-499d-aaac-e2140ef42364")
+	)
+	(junction
+		(at 57.3747 165.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd4692f-9ed8-4a1b-9d84-b03ff57d3034")
+	)
+	(junction
 		(at 99.06 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "118e08a7-9d58-4475-aabb-cb3533f826d6")
+	)
+	(junction
+		(at 117.0891 168.6322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b57cbb0-1417-4966-8a31-85f7b40de0f9")
 	)
 	(junction
 		(at 74.93 39.37)
@@ -2109,10 +2610,40 @@
 		(uuid "29ead12e-02ea-43f4-b552-c7a7112426de")
 	)
 	(junction
+		(at 129.7891 176.2522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b301fc0-bd85-43a5-ac4f-36f8c0755708")
+	)
+	(junction
+		(at 77.6947 155.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b94fb36-b6df-428f-9a9d-81b28611d60c")
+	)
+	(junction
 		(at 193.04 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6639f4fe-9491-4656-bc73-2f33d1c70e70")
+	)
+	(junction
+		(at 137.4091 158.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6accdaba-b7e2-4163-8c15-589fded3ec1e")
+	)
+	(junction
+		(at 77.47 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d0d96b8-0425-4e89-89bf-159b78809678")
+	)
+	(junction
+		(at 131.0768 107.6104)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "759874b5-598f-46f6-a522-90fe71d4900f")
 	)
 	(junction
 		(at 231.14 55.88)
@@ -2125,6 +2656,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ca64ee-5598-4c15-a442-acf2f95b385d")
+	)
+	(junction
+		(at 77.47 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f521b91-ce0b-4e3a-b1b4-104ca7f1487c")
 	)
 	(junction
 		(at 238.76 107.95)
@@ -2145,6 +2682,18 @@
 		(uuid "ad2f3dfc-2937-41d2-b9e2-f0b69712d3e1")
 	)
 	(junction
+		(at 138.6968 107.6104)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b37bfbe3-ce90-46e7-99e6-51a890647dff")
+	)
+	(junction
+		(at 70.0747 173.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf8149ff-99d2-4f67-b307-5f06f9af6d04")
+	)
+	(junction
 		(at 85.09 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2157,16 +2706,34 @@
 		(uuid "c2942f7b-3f47-4d79-9532-b8c22a2d765a")
 	)
 	(junction
+		(at 70.0747 155.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb3425b-4f44-4e71-abd7-7201f00ad8c8")
+	)
+	(junction
 		(at 212.09 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3131cf6-db1f-4b64-b0c8-975bc1b17f42")
 	)
 	(junction
+		(at 64.77 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0273414-e157-48e6-a5c4-d7129a856733")
+	)
+	(junction
 		(at 227.33 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e02c070b-7d99-4837-a850-f49dcc321aad")
+	)
+	(junction
+		(at 131.0768 125.3904)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6ac6783-2921-4399-b653-46e44775c920")
 	)
 	(junction
 		(at 209.55 119.38)
@@ -2185,6 +2752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edc131c0-d511-43ce-925c-2f4c8fae2b7c")
+	)
+	(junction
+		(at 129.7891 158.4722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee7efba1-5810-4cf1-b090-0e8c1cf68d81")
 	)
 	(junction
 		(at 146.05 39.37)
@@ -2216,6 +2789,12 @@
 		(color 0 0 0 0)
 		(uuid "f92e472c-f74a-47b2-9a84-9a12aff87d83")
 	)
+	(junction
+		(at 118.3768 117.7704)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5ad110-5015-4784-80ac-6e73201179b3")
+	)
 	(no_connect
 		(at 189.23 95.25)
 		(uuid "0e3a33c7-e715-4e86-a8a6-57d394993cec")
@@ -2241,6 +2820,26 @@
 			(type default)
 		)
 		(uuid "009a4fa6-eb9d-4d49-b579-ea4ac6b0a9d2")
+	)
+	(wire
+		(pts
+			(xy 77.6947 155.575) (xy 84.0447 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e76c6d-9612-4e4c-aa6a-5bcf7a603b63")
+	)
+	(wire
+		(pts
+			(xy 122.1868 125.3904) (xy 118.3768 125.3904)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020d46aa-cb36-493d-b3e2-f9f66d1144aa")
 	)
 	(wire
 		(pts
@@ -2294,6 +2893,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.9791 176.2522) (xy 129.7891 176.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0676d95a-fb7d-4a57-89dd-00bd2cad0964")
+	)
+	(wire
+		(pts
 			(xy 238.76 102.87) (xy 238.76 107.95)
 		)
 		(stroke
@@ -2301,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "06c8bdd9-b97a-445c-a43f-1a2aec0cd99b")
+	)
+	(wire
+		(pts
+			(xy 129.7891 158.4722) (xy 131.0591 158.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b408f57-3602-425a-aaf0-d4a3a92f4847")
 	)
 	(wire
 		(pts
@@ -2324,6 +2943,76 @@
 	)
 	(wire
 		(pts
+			(xy 134.8691 149.5822) (xy 137.4091 149.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11493e14-7162-48c2-a835-ec5121acac28")
+	)
+	(wire
+		(pts
+			(xy 133.6168 97.4504) (xy 133.6168 98.7204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161625e1-4ec3-4979-b3af-bbbc99d2c11b")
+	)
+	(wire
+		(pts
+			(xy 132.3291 149.5822) (xy 129.7891 149.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17255996-cb93-4408-ae2e-e169dc00491a")
+	)
+	(wire
+		(pts
+			(xy 64.77 124.46) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5e0eb6-6bc8-4699-b569-61d0372a07a6")
+	)
+	(wire
+		(pts
+			(xy 129.7891 176.2522) (xy 129.7891 178.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d224bbd-3e01-4851-a116-829649233c06")
+	)
+	(wire
+		(pts
+			(xy 57.3747 173.355) (xy 57.3747 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e988473-d957-4e31-b188-3efeefc74a5e")
+	)
+	(wire
+		(pts
+			(xy 72.6147 145.415) (xy 72.6147 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa57058-de2d-454a-83c4-5925e18cc728")
+	)
+	(wire
+		(pts
 			(xy 62.23 39.37) (xy 74.93 39.37)
 		)
 		(stroke
@@ -2341,6 +3030,26 @@
 			(type default)
 		)
 		(uuid "2253f03d-301e-4ac1-b275-747b2580608b")
+	)
+	(wire
+		(pts
+			(xy 61.1847 173.355) (xy 57.3747 173.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22dc7bf3-5452-47ea-8838-22bca9e254ee")
+	)
+	(wire
+		(pts
+			(xy 66.2647 173.355) (xy 70.0747 173.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cbc5a8-5a0b-4e4e-a6ba-cfca5de363ac")
 	)
 	(wire
 		(pts
@@ -2364,6 +3073,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.3891 168.6322) (xy 108.1991 168.6322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254497dc-e870-4771-86ca-79cde96c633a")
+	)
+	(wire
+		(pts
 			(xy 209.55 81.28) (xy 212.09 81.28)
 		)
 		(stroke
@@ -2384,6 +3103,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.3291 148.3122) (xy 132.3291 149.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef494c5-585d-4b4b-81a6-da300cc0fdbb")
+	)
+	(wire
+		(pts
 			(xy 231.14 55.88) (xy 234.95 55.88)
 		)
 		(stroke
@@ -2394,6 +3123,36 @@
 	)
 	(wire
 		(pts
+			(xy 131.0768 112.6904) (xy 131.0768 107.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1dc501-3a49-401a-aaaa-b523bf6b099a")
+	)
+	(wire
+		(pts
+			(xy 76.4247 155.575) (xy 77.6947 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300de45a-37f4-4c90-9acd-f6d31808ce11")
+	)
+	(wire
+		(pts
+			(xy 129.7891 149.5822) (xy 129.7891 158.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ca1689-8395-4bb5-b12d-b67355cbdff7")
+	)
+	(wire
+		(pts
 			(xy 190.5 48.26) (xy 195.58 48.26)
 		)
 		(stroke
@@ -2401,6 +3160,16 @@
 			(type default)
 		)
 		(uuid "3223c2f0-4886-4b26-a866-3393cfb4d6e3")
+	)
+	(wire
+		(pts
+			(xy 85.09 97.79) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b99b42-e6b9-4ca2-bea7-909efeac9ab2")
 	)
 	(wire
 		(pts
@@ -2444,6 +3213,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.5647 165.735) (xy 57.3747 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc374e9-ae76-47e8-a2f1-b92df1713c61")
+	)
+	(wire
+		(pts
 			(xy 45.72 45.72) (xy 45.72 39.37)
 		)
 		(stroke
@@ -2474,6 +3253,56 @@
 	)
 	(wire
 		(pts
+			(xy 131.0768 125.3904) (xy 131.0768 127.9304)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48afa188-7256-4a10-85ef-ddd63a352c40")
+	)
+	(wire
+		(pts
+			(xy 105.6768 117.7704) (xy 109.4868 117.7704)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b95796-dc97-43bd-8c71-51e39d8c1b64")
+	)
+	(wire
+		(pts
+			(xy 127.2668 125.3904) (xy 131.0768 125.3904)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c68e1c6-b77c-4a6b-b714-d1e89a66efca")
+	)
+	(wire
+		(pts
+			(xy 133.6168 98.7204) (xy 131.0768 98.7204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dab0919-0041-4145-9710-072d32a4a041")
+	)
+	(wire
+		(pts
+			(xy 77.47 97.79) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de3ef79-7417-46e6-b02b-4f69b6c66300")
+	)
+	(wire
+		(pts
 			(xy 114.3 41.91) (xy 111.76 41.91)
 		)
 		(stroke
@@ -2491,6 +3320,16 @@
 			(type default)
 		)
 		(uuid "50a72c96-1c62-419b-9073-815b90f14b46")
+	)
+	(wire
+		(pts
+			(xy 120.8991 176.2522) (xy 117.0891 176.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e8657f-86a1-4d4d-9420-52b56f160360")
 	)
 	(wire
 		(pts
@@ -2534,6 +3373,26 @@
 	)
 	(wire
 		(pts
+			(xy 75.1547 145.415) (xy 75.1547 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f03fb20-5f3c-4d59-8dc6-c4d27164aa02")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa82a47-89a4-4d9c-aabd-0703c8782562")
+	)
+	(wire
+		(pts
 			(xy 224.79 43.18) (xy 231.14 43.18)
 		)
 		(stroke
@@ -2564,6 +3423,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.3768 125.3904) (xy 118.3768 117.7704)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c735ea0-da23-4006-a579-53ed98d41460")
+	)
+	(wire
+		(pts
 			(xy 85.09 46.99) (xy 85.09 53.34)
 		)
 		(stroke
@@ -2574,6 +3443,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.5668 117.7704) (xy 118.3768 117.7704)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfd5e14-4d69-4f69-bf56-9e761bfc91f5")
+	)
+	(wire
+		(pts
 			(xy 227.33 107.95) (xy 229.87 107.95)
 		)
 		(stroke
@@ -2581,6 +3460,16 @@
 			(type default)
 		)
 		(uuid "6d3d3099-4e84-47ff-ba2a-0276a35a7152")
+	)
+	(wire
+		(pts
+			(xy 131.0768 98.7204) (xy 131.0768 107.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df80f56-7579-4a57-86cf-bbda2c700989")
 	)
 	(wire
 		(pts
@@ -2614,6 +3503,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.0891 176.2522) (xy 117.0891 168.6322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733f1932-5f50-4ac1-bc5b-992a4a4a32f5")
+	)
+	(wire
+		(pts
 			(xy 190.5 43.18) (xy 195.58 43.18)
 		)
 		(stroke
@@ -2621,6 +3520,16 @@
 			(type default)
 		)
 		(uuid "7350e4fe-0c61-4de6-ae96-f83ab47db0f6")
+	)
+	(wire
+		(pts
+			(xy 138.6968 98.7204) (xy 138.6968 107.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74db6232-1d47-4e88-b17e-16aca85b6b44")
 	)
 	(wire
 		(pts
@@ -2641,6 +3550,16 @@
 			(type default)
 		)
 		(uuid "763a9159-d927-45cf-83ef-d7fa306b4ac2")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771e9fef-1a33-4b7b-9005-109a2f8accd9")
 	)
 	(wire
 		(pts
@@ -2674,6 +3593,36 @@
 	)
 	(wire
 		(pts
+			(xy 129.7891 163.5522) (xy 129.7891 158.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794193a3-24e2-467f-ae02-2607ddd48160")
+	)
+	(wire
+		(pts
+			(xy 118.3768 117.7704) (xy 123.4568 117.7704)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db59c9a-dd3b-4373-aeb4-a1e8fd6976ce")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 64.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3556f6-24a3-44ed-b0fa-931a7d30ac08")
+	)
+	(wire
+		(pts
 			(xy 85.09 39.37) (xy 111.76 39.37)
 		)
 		(stroke
@@ -2691,6 +3640,26 @@
 			(type default)
 		)
 		(uuid "86c7d019-3de0-47df-ab26-f07331e9e17d")
+	)
+	(wire
+		(pts
+			(xy 44.6747 165.735) (xy 48.4847 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b87b438-2817-4530-b26b-31b3a66bc60c")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6eff69-e40d-4b3e-9499-d836ec7c1b06")
 	)
 	(wire
 		(pts
@@ -2724,6 +3693,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.2791 168.6322) (xy 117.0891 168.6322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fa01a1-0518-437f-a699-f802722f4ae9")
+	)
+	(wire
+		(pts
+			(xy 131.0768 107.6104) (xy 132.3468 107.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955d0343-9cfa-4035-89e5-81d6b8fa4677")
+	)
+	(wire
+		(pts
 			(xy 45.72 39.37) (xy 41.91 39.37)
 		)
 		(stroke
@@ -2754,6 +3743,46 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 96.52) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8d35d5-4500-4c36-92df-775dfbee91a5")
+	)
+	(wire
+		(pts
+			(xy 129.7891 173.7122) (xy 129.7891 176.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af16853-9dd5-43c6-8b38-eafaf6bcb73b")
+	)
+	(wire
+		(pts
+			(xy 82.55 96.52) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db85460-10c9-484b-a1cd-a698dbfd9e76")
+	)
+	(wire
+		(pts
+			(xy 131.0768 122.8504) (xy 131.0768 125.3904)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ca472b-5b95-4385-a143-4543657aeba1")
+	)
+	(wire
+		(pts
 			(xy 227.33 45.72) (xy 227.33 48.26)
 		)
 		(stroke
@@ -2771,6 +3800,16 @@
 			(type default)
 		)
 		(uuid "a362fe0e-2b38-4227-89d1-7153080e18c3")
+	)
+	(wire
+		(pts
+			(xy 136.1568 98.7204) (xy 138.6968 98.7204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a388960f-de74-4cb6-8d5e-b6cc44f26a95")
 	)
 	(wire
 		(pts
@@ -2794,6 +3833,16 @@
 	)
 	(wire
 		(pts
+			(xy 136.1391 158.4722) (xy 137.4091 158.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60ae87b-ebc2-401d-99e3-04e7a1332ef0")
+	)
+	(wire
+		(pts
 			(xy 195.58 53.34) (xy 193.04 53.34)
 		)
 		(stroke
@@ -2804,6 +3853,46 @@
 	)
 	(wire
 		(pts
+			(xy 134.8691 148.3122) (xy 134.8691 149.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3d6c5c-aa67-47bb-9764-2a46b0e0825d")
+	)
+	(wire
+		(pts
+			(xy 117.0891 168.6322) (xy 122.1691 168.6322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07b85c4-604b-4841-b214-5f37ba1adb20")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fdde2b-d7a5-4519-b6db-97ee3ebb2be9")
+	)
+	(wire
+		(pts
+			(xy 77.6947 146.685) (xy 77.6947 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17a4dcd-f735-4228-8249-660acf688ed1")
+	)
+	(wire
+		(pts
 			(xy 229.87 107.95) (xy 229.87 102.87)
 		)
 		(stroke
@@ -2811,6 +3900,26 @@
 			(type default)
 		)
 		(uuid "b37c7dab-aa25-4202-8b01-6dfc19b01839")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45218b5-0ac9-429a-943b-d5d69cd44513")
+	)
+	(wire
+		(pts
+			(xy 70.0747 170.815) (xy 70.0747 173.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b542a7dc-3d46-481f-96b2-8c7ccaf0d6b3")
 	)
 	(wire
 		(pts
@@ -2844,6 +3953,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.4091 149.5822) (xy 137.4091 158.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b977dfe4-bca3-4520-b667-c5667ae3a339")
+	)
+	(wire
+		(pts
 			(xy 229.87 107.95) (xy 238.76 107.95)
 		)
 		(stroke
@@ -2851,6 +3970,16 @@
 			(type default)
 		)
 		(uuid "b9c0c4f8-a479-4447-9d4c-8103873dffdf")
+	)
+	(wire
+		(pts
+			(xy 77.47 124.46) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae7133a-8093-4fcf-8ed6-2deb5f63b4e2")
 	)
 	(wire
 		(pts
@@ -2894,6 +4023,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.6968 107.6104) (xy 145.0468 107.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2165f36-7702-4838-982c-90298ab23ac2")
+	)
+	(wire
+		(pts
+			(xy 137.4268 107.6104) (xy 138.6968 107.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4af5212-4a1f-4984-aea2-eeef2978e5ad")
+	)
+	(wire
+		(pts
 			(xy 224.79 50.8) (xy 227.33 50.8)
 		)
 		(stroke
@@ -2924,6 +4073,26 @@
 	)
 	(wire
 		(pts
+			(xy 70.0747 173.355) (xy 70.0747 175.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b9a641-76e6-406c-9ff4-e1b808d37616")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01ccf94-6796-46f4-a255-c3a8ab4bd380")
+	)
+	(wire
+		(pts
 			(xy 187.96 105.41) (xy 189.23 105.41)
 		)
 		(stroke
@@ -2931,6 +4100,56 @@
 			(type default)
 		)
 		(uuid "d9757f63-f144-4430-b03f-93d5705ed952")
+	)
+	(wire
+		(pts
+			(xy 70.0747 155.575) (xy 71.3447 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da49cf01-4e25-4647-81d0-f38281a2b652")
+	)
+	(wire
+		(pts
+			(xy 77.47 121.92) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db93fb71-2efc-47ee-9183-0fdb4413770b")
+	)
+	(wire
+		(pts
+			(xy 136.1568 97.4504) (xy 136.1568 98.7204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdc530c-f4fc-4de9-8100-e1769d1aae10")
+	)
+	(wire
+		(pts
+			(xy 72.6147 146.685) (xy 70.0747 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de512ce0-2e74-4e9c-b35c-3c7e1ae5542e")
+	)
+	(wire
+		(pts
+			(xy 57.3747 165.735) (xy 62.4547 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01cc003-263c-444d-b7b9-6eef985e665e")
 	)
 	(wire
 		(pts
@@ -2964,6 +4183,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.1547 146.685) (xy 77.6947 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83d35b1-9c1e-4b09-b6a5-f0b8c5cd09f9")
+	)
+	(wire
+		(pts
 			(xy 133.35 39.37) (xy 129.54 39.37)
 		)
 		(stroke
@@ -2981,6 +4210,16 @@
 			(type default)
 		)
 		(uuid "eb644199-7276-498c-bbad-2a6886373836")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb821d00-35d9-4827-b0e1-dfb916d7c52f")
 	)
 	(wire
 		(pts
@@ -3004,6 +4243,46 @@
 	)
 	(wire
 		(pts
+			(xy 70.0747 146.685) (xy 70.0747 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d76c32-f857-4bd4-ba9c-2ced865cd670")
+	)
+	(wire
+		(pts
+			(xy 70.0747 160.655) (xy 70.0747 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9762811-8151-4be8-90a0-66640994b282")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bdd47a-6015-4f0f-a0b8-ec323f3516e4")
+	)
+	(wire
+		(pts
+			(xy 80.01 97.79) (xy 77.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa165c3b-51f9-466c-835b-62ab427ee607")
+	)
+	(wire
+		(pts
 			(xy 146.05 39.37) (xy 146.05 41.91)
 		)
 		(stroke
@@ -3011,6 +4290,16 @@
 			(type default)
 		)
 		(uuid "fa4c8e1c-d1ef-44cc-9fa4-6e582f0c1138")
+	)
+	(wire
+		(pts
+			(xy 73.66 124.46) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2150af-29aa-482a-b324-dea953019bd8")
 	)
 	(wire
 		(pts
@@ -3034,6 +4323,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.4091 158.4722) (xy 143.7591 158.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdaadb9b-2433-4d78-bc07-830e223844eb")
+	)
+	(wire
+		(pts
 			(xy 227.33 48.26) (xy 227.33 50.8)
 		)
 		(stroke
@@ -3051,6 +4350,46 @@
 			(justify left bottom)
 		)
 		(uuid "13b005c8-42b4-46b2-8a1d-57059b6d4ebb")
+	)
+	(label "VBAT"
+		(at 84.0447 155.575 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a9dee3a-5178-43ff-b8a5-51a308420fe3")
+	)
+	(label "VBAT"
+		(at 145.0468 107.6104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44b787ee-03d8-4245-8639-8c6939edee31")
+	)
+	(label "VBAT"
+		(at 143.7591 158.4722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf29add7-8c25-45b1-a762-b6cc929ff44f")
+	)
+	(label "VBAT"
+		(at 91.44 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6fd8912-2afc-4b62-b37c-af5c55a97cb6")
 	)
 	(label "3.3V"
 		(at 138.43 39.37 0)
@@ -3099,6 +4438,30 @@
 		(uuid "42464caf-e34f-4931-ac7d-920e9e2a463d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.681 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_M3"
+		(shape input)
+		(at 44.6747 165.735 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f0583db-226a-4715-bc51-8c456e4403ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.8882 165.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,6 +4593,30 @@
 			)
 		)
 	)
+	(global_label "PWM_M4"
+		(shape input)
+		(at 104.3891 168.6322 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c685597e-0b7c-46bc-befc-2bc54bcc8783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.6026 168.6322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CS_SD"
 		(shape input)
 		(at 187.96 100.33 180)
@@ -3267,6 +4654,54 @@
 		(uuid "ec77d49e-a566-4fe2-9d7c-01d44f05a20d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.3267 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_M1"
+		(shape input)
+		(at 52.07 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f362dab5-048c-4c01-b079-3528e7af4786")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.2835 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_M2"
+		(shape input)
+		(at 105.6768 117.7704 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f38cb0f0-31bd-49b0-8ec4-d40826539b84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.8903 117.7704 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,6 +4860,252 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 133.6168 92.3704 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ab1f122-8303-461b-8ab2-b54935f49fc3")
+		(property "Reference" "J5"
+			(at 134.8868 87.5444 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-XHB"
+			(at 134.8868 89.8304 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.6168 92.3704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.6168 92.3704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.6168 92.3704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66e7efda-59e3-422d-ac95-238a2b9948a4")
+		)
+		(pin "1"
+			(uuid "16523edf-a533-4345-af05-6f6beca3b250")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 127.2491 168.6322 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102d7559-0640-4ee0-9f0f-03f678b6cb53")
+		(property "Reference" "Q3"
+			(at 133.5991 167.3621 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 133.5991 169.9021 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 132.3291 170.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 132.3291 172.4422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 127.2491 168.6322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec09199a-4620-4b1e-a6d0-4b15fa6ae7dd")
+		)
+		(pin "1"
+			(uuid "eb4bdbef-4710-4659-9dcd-bf74be53e798")
+		)
+		(pin "3"
+			(uuid "a9774c1d-db5b-46dd-a1cd-4fbfd1135e5d")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 71.12 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e66797a-7991-40de-96cf-ff54cd395105")
+		(property "Reference" "R5"
+			(at 71.12 119.888 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 71.12 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec63262e-dd31-4283-9b63-d9c8a945d905")
+		)
+		(pin "1"
+			(uuid "eeccd1a0-7e6b-4fcb-b507-84895f704073")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3742,6 +5423,85 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 134.8868 107.6104 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "301f6277-5ec3-4e47-b6a1-f4672a22a60c")
+		(property "Reference" "D4"
+			(at 134.8868 102.5304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 134.8868 105.0704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.8868 107.6104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.8868 107.6104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 134.8868 107.6104 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a6cc1dd-06d4-405b-8c90-34f1cf1aa175")
+		)
+		(pin "2"
+			(uuid "78139f58-0ea1-4f5f-8b46-0336594c5cc2")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4241,6 +6001,248 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 131.0768 127.9304 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "490d2ae2-ef10-4ad6-83e4-3a6a51e1d3d0")
+		(property "Reference" "#PWR023"
+			(at 131.0768 134.2804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 131.0768 131.7404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.0768 127.9304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.0768 127.9304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 131.0768 127.9304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8b785a-12f8-464a-88ba-e680ca3ac69d")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 70.0747 175.895 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57ec501f-c695-4dd0-9590-0cf865808ebe")
+		(property "Reference" "#PWR021"
+			(at 70.0747 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70.0747 179.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.0747 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.0747 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 70.0747 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f440ca33-1d71-4a3d-a28e-fc798e70399e")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 74.93 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b45a925-eff8-42a7-879f-76dcc6420ad9")
+		(property "Reference" "Q1"
+			(at 81.28 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 81.28 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 80.01 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 80.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 74.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01431ec0-31b8-4e6b-8041-dfc06dc88de2")
+		)
+		(pin "1"
+			(uuid "a8eccc49-7004-45e5-8a50-75b0edbd5de2")
+		)
+		(pin "3"
+			(uuid "30440167-9a04-4a49-8e9f-7495b52e52ce")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 54.61 36.83 0)
 		(unit 1)
@@ -4399,6 +6401,164 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 81.28 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67b1ead0-b246-494f-a87d-04e421143a6f")
+		(property "Reference" "D1"
+			(at 81.28 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 81.28 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cd503ec-eefc-46ab-bafb-53b27f255ca4")
+		)
+		(pin "2"
+			(uuid "4654fc1e-4ab3-4087-8901-7d8c8fb25722")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 133.5991 158.4722 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70aec3cb-7f03-4f66-a194-a3ea096bc4a0")
+		(property "Reference" "D3"
+			(at 133.5991 153.3922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 133.5991 155.9322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.5991 158.4722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.5991 158.4722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 133.5991 158.4722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e782985e-b4a3-44df-94f0-c8e2cf912dd0")
+		)
+		(pin "2"
+			(uuid "b9acf481-3730-4124-88e8-060049ba4a60")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4660,7 +6820,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-PH"
+		(property "Value" "JST 2.0"
 			(at 36.83 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4794,6 +6954,252 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 67.5347 165.735 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "839acc83-e3a0-463a-b1f6-a8ea02f3e766")
+		(property "Reference" "Q2"
+			(at 73.8847 164.4649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 73.8847 167.0049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 72.6147 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 72.6147 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 67.5347 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6605a74-3866-4f0b-a573-f12e02c0729a")
+		)
+		(pin "1"
+			(uuid "40a38fee-ff1f-4d7d-94f0-c941bb7d86c7")
+		)
+		(pin "3"
+			(uuid "5f029115-5d14-44aa-868d-a7db7b485ed4")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 73.8847 155.575 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85598665-4703-4d9e-9753-94e9af35a2f7")
+		(property "Reference" "D2"
+			(at 73.8847 150.495 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 73.8847 153.035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.8847 155.575 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.8847 155.575 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 73.8847 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d6b342f-1b1b-4d74-828c-1be3247ba0b7")
+		)
+		(pin "2"
+			(uuid "d710302f-a64d-4a8a-a976-8e136c2bd682")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 51.0247 165.735 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86058731-693d-449d-9123-0954ce566285")
+		(property "Reference" "R7"
+			(at 51.0247 161.163 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 51.0247 163.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.0247 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.0247 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 51.0247 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "edb35069-0113-4ef0-aa86-2af8b23d203a")
+		)
+		(pin "1"
+			(uuid "c8b32a0e-8c56-4750-bb0e-10d890bfa178")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5113,6 +7519,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 132.3291 143.2322 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97439e92-e3c7-44fa-bac8-0dbbb2014df0")
+		(property "Reference" "J4"
+			(at 133.5991 138.4062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-XHB"
+			(at 133.5991 140.6922 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.3291 143.2322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.3291 143.2322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.3291 143.2322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25c45bc2-f720-4a1d-a219-9c6d0cd88f12")
+		)
+		(pin "1"
+			(uuid "06c32810-f6bb-408c-931b-dc925d6725e1")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 58.42 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b0679df-ce92-4f8d-8d3d-55088f20f74d")
+		(property "Reference" "R6"
+			(at 58.42 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 58.42 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 58.42 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34cde686-fb29-4576-8936-f8384f624156")
+		)
+		(pin "1"
+			(uuid "bdf8751d-3cd9-4c65-8293-6901ae8a2509")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 121.92 53.34 0)
 		(unit 1)
@@ -5190,6 +7754,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.4391 176.2522 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a42418b1-c88c-48ba-b8b9-aab92ac4f2dd")
+		(property "Reference" "R10"
+			(at 123.4391 171.6802 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 123.4391 173.7122 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.4391 176.2522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.4391 176.2522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 123.4391 176.2522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cea75c1e-1d60-460f-bd75-e9adac7319c8")
+		)
+		(pin "1"
+			(uuid "aedd1b43-b93d-4751-a565-1bba91ea7cef")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "trochi_sym:TF-01A")
 		(at 208.28 100.33 0)
 		(unit 1)
@@ -5255,30 +7898,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "韩国韩荣"
-			(at 208.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TF-01A"
-			(at 208.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C91145"
-			(at 208.28 135.89 0)
+		(property "LCSC" "https://robotistanpro.com/korean-hroparts-elec-tf-01a"
+			(at 208.28 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,6 +7952,85 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "Card1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 110.7391 168.6322 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad4d1d45-45e8-4330-947a-108ab57786ef")
+		(property "Reference" "R9"
+			(at 110.7391 164.0602 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 110.7391 166.0922 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.7391 168.6322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.7391 168.6322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 110.7391 168.6322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2341b9da-7425-47ff-8803-fe72fc8f4546")
+		)
+		(pin "1"
+			(uuid "363c1a45-51ea-4f49-a10f-9729501fdd94")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5414,6 +8114,241 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 129.7891 178.7922 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b544ddd9-0955-4145-92e8-ed439ac2dbd3")
+		(property "Reference" "#PWR022"
+			(at 129.7891 185.1422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.7891 182.6022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.7891 178.7922 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.7891 178.7922 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 129.7891 178.7922 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3606b9f-1062-4f8e-b31f-c48b13ec5779")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 63.7247 173.355 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7d22aa3-71a2-4091-b25f-3f512e4df5af")
+		(property "Reference" "R8"
+			(at 63.7247 168.783 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 63.7247 170.815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.7247 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.7247 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 63.7247 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6826bfd-4f4d-46d6-b620-5e6943070e3f")
+		)
+		(pin "1"
+			(uuid "717f61db-9ad8-4124-a46d-ad04f93781c8")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 124.7268 125.3904 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "beb8da38-f76d-44a1-92c3-4c9297d836a7")
+		(property "Reference" "R12"
+			(at 124.7268 120.8184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 124.7268 122.8504 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.7268 125.3904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.7268 125.3904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 124.7268 125.3904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "914a6057-72b6-4112-a29e-fcd11fa724d5")
+		)
+		(pin "1"
+			(uuid "bda1ddcb-fb2a-4a7a-a5c1-5196ae0459cd")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 237.49 55.88 90)
 		(unit 1)
@@ -5487,6 +8422,94 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 128.5368 117.7704 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c011f2c7-f062-4756-af63-1eb8a06714b5")
+		(property "Reference" "Q4"
+			(at 134.8868 116.5003 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 134.8868 119.0403 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 133.6168 119.6754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 133.6168 121.5804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 128.5368 117.7704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d7ec9a1-11cf-4201-8eb0-69d48bcc52f1")
+		)
+		(pin "1"
+			(uuid "2b176799-4be4-4187-9a04-d046a1880370")
+		)
+		(pin "3"
+			(uuid "22c8e42e-ffe5-42aa-809f-07604198d904")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5652,6 +8675,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 80.01 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9f7da4e-e366-4bd0-9f65-0f8d579a6cb6")
+		(property "Reference" "J2"
+			(at 81.28 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-XHB"
+			(at 81.28 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4854bd6-25a8-444d-93f4-35f3591da197")
+		)
+		(pin "1"
+			(uuid "be79e41c-70ca-4cf4-8f8b-f82d59cad925")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 112.0268 117.7704 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8c4430b-3995-4966-a74e-986a9468fc60")
+		(property "Reference" "R11"
+			(at 112.0268 113.1984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 112.0268 115.2304 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.0268 117.7704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.0268 117.7704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 112.0268 117.7704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0eb333ff-ef2c-46ba-8bca-ae2640396468")
+		)
+		(pin "1"
+			(uuid "bfc7c206-42b0-4a31-9134-4484a9b5ba38")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 229.87 100.33 0)
 		(unit 1)
@@ -5727,6 +8908,83 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 77.47 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9569af7-5601-4f85-93f9-0e79833604cc")
+		(property "Reference" "#PWR020"
+			(at 77.47 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82d2a6cf-a750-4e7d-a7c7-7c00c0fba422")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5881,6 +9139,85 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 72.6147 140.335 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eda62346-01ad-4de4-8ba3-2e7346fe8d2d")
+		(property "Reference" "J3"
+			(at 73.8847 135.509 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-XHB"
+			(at 73.8847 137.795 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.6147 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.6147 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.6147 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c50fe56e-4ca5-4edd-a557-e68b84dc4a8f")
+		)
+		(pin "1"
+			(uuid "a8582d26-b5d8-4502-932b-d346ccab5311")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "J3")
 					(unit 1)
 				)
 			)
