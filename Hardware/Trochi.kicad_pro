@@ -632,7 +632,7 @@
         "uuid": "a5119cab-c33d-484e-b542-18705d0dc8d0"
       }
     ],
-    "used_designators": "J3-6",
+    "used_designators": "J3-6,#PWR16,#PWR19",
     "variants": []
   },
   "sheets": [
