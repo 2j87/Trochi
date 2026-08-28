@@ -6853,7 +6853,7 @@
 				)
 			)
 		)
-		(property "Value" "JST 2.0"
+		(property "Value" "JST PH"
 			(at 17.78 22.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,6 +6886,39 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 17.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C295747.html?s_z=n_q_C295747&globalKeyword=C295747"
+			(at 17.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MALE" "https://www.lcsc.com/product-detail/C157955.html?s_z=n_q_C157955&globalKeyword=C157955"
+			(at 17.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TERMINAL" "https://www.lcsc.com/product-detail/C111516.html?s_z=n_q_C111516&globalKeyword=C111516"
 			(at 17.78 27.94 0)
 			(hide yes)
 			(show_name no)
