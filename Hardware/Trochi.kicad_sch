@@ -10044,7 +10044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "JST_SH"
 			(at 54.61 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10078,6 +10078,39 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 52.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C160404.html?s_z=n_q_C160404&globalKeyword=C160404"
+			(at 52.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MALE" "https://www.lcsc.com/product-detail/C394367.html?s_z=n_q_C394367&globalKeyword=C394367"
+			(at 52.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TERMINAL" "https://www.lcsc.com/product-detail/C160231.html?s_z=n_q_C160231&globalKeyword=C160231"
 			(at 52.07 99.06 0)
 			(hide yes)
 			(show_name no)
