@@ -7706,6 +7706,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C25744"
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "503ff00e-97c8-44a3-95a6-bf55912df511")
 		)
@@ -7777,6 +7799,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C25744"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7862,6 +7906,28 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/MOSFETs_Guangdong-Hottech-AO3400_C181090.html"
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C181090"
 			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8267,6 +8333,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 139.7 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
+			(at 139.7 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af5d25de-9e4a-4e3d-bc18-5a60ef747f2d")
 		)
@@ -8338,6 +8426,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C318688.html?s_z=n_q_C318688&globalKeyword=C318688"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C318688"
 			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8429,6 +8539,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 167.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
+			(at 167.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f3ebb36c-98b5-4df3-8ec5-2f9766d93978")
 		)
@@ -8500,6 +8632,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 116.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 116.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C25744"
 			(at 116.84 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8674,6 +8828,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Field12" ""
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1850418.htmlhttps://www.lcsc.com/product-detail/C1850418.html"
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1850418"
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -8869,6 +9056,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C60491.html"
+			(at 33.02 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C60491"
+			(at 33.02 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cbf64c96-1485-4acb-9b8a-168554b1128e")
 		)
@@ -8938,6 +9147,28 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
 			(at 264.16 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9298,7 +9529,18 @@
 				)
 			)
 		)
-		(property "LCSC" "https://robotistanpro.com/microne-me6211c33m5g-n"
+		(property "LCSC" "https://www.lcsc.com/product-detail/Low-Dropout-Regulators-LDO_MICRONE-Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.html"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C82942"
 			(at 118.11 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9388,6 +9630,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 257.81 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 257.81 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
+			(at 257.81 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,6 +10128,28 @@
 				)
 			)
 		)
+		(property "Part Number" "C2889341"
+			(at 43.18 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_vo-0402-1-1k_C2889341.html"
+			(at 43.18 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70e906f4-91c4-4ce2-afac-5babf85b67fe")
 		)
@@ -10016,6 +10302,28 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 199.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/MOSFETs_Guangdong-Hottech-AO3400_C181090.html"
+			(at 199.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C181090"
 			(at 199.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10187,6 +10495,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C15525.html"
+			(at 71.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C15525"
+			(at 71.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "95b2d3cf-c96e-42c3-90be-6ca82ae56895")
 		)
@@ -10256,6 +10586,28 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 205.74 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
 			(at 205.74 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10345,6 +10697,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C145852.html"
+			(at 54.61 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C145852"
+			(at 54.61 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a71be66f-ba66-45cd-a286-f394ef245bbb")
 		)
@@ -10419,6 +10793,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 46.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
 			(at 46.99 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10580,6 +10976,28 @@
 		)
 		(property "Description" "Schottky diode, small symbol"
 			(at 53.34 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 53.34 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
+			(at 53.34 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,6 +11232,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 58.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C15008.html"
+			(at 58.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C15008"
 			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11059,6 +11499,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 95.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
+			(at 95.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "02fea053-efaa-47ee-96c0-b8639cf0b8dd")
 		)
@@ -11144,6 +11606,28 @@
 				)
 			)
 		)
+		(property "Part Number" "https://www.lcsc.com/product-detail/MOSFETs_Guangdong-Hottech-AO3400_C181090.html"
+			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C181090"
+			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6605a74-3866-4f0b-a573-f12e02c0729a")
 		)
@@ -11216,6 +11700,28 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
 			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11694,6 +12200,28 @@
 				)
 			)
 		)
+		(property "Part Number" "C60491"
+			(at 81.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C60491.html"
+			(at 81.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "26a36fb2-f84a-403e-8425-7ebe4914b59c")
 		)
@@ -12010,7 +12538,18 @@
 				)
 			)
 		)
-		(property "LCSC" "https://robotistanpro.com/korean-hroparts-elec-tf-01a"
+		(property "LCSC" "https://www.lcsc.com/product-detail/C91145.html"
+			(at 137.16 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C91145"
 			(at 137.16 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12215,6 +12754,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/MOSFETs_PAKER-AO3401_C5278897.html"
+			(at 38.1 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C5278897"
+			(at 38.1 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cda28837-6b20-426a-8ab0-b2bb2b151f11")
 		)
@@ -12380,6 +12941,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 33.02 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2286.html"
+			(at 33.02 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2286"
+			(at 33.02 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12784,6 +13367,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 110.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C25744"
+			(at 110.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd09c71c-366c-425f-a559-cae288279a39")
 		)
@@ -13019,6 +13624,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 257.81 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
+			(at 257.81 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e281a733-b2f0-4ed3-8720-28b91b356a74")
 		)
@@ -13094,6 +13721,28 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 257.81 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/MOSFETs_Guangdong-Hottech-AO3400_C181090.html"
+			(at 257.81 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C181090"
 			(at 257.81 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13378,6 +14027,28 @@
 				)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 151.13 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C1525"
+			(at 151.13 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6809ec81-4a2a-4506-a691-0a4bd6b34f5b")
 		)
@@ -13571,6 +14242,28 @@
 				)
 			)
 		)
+		(property "Part Number" "C2889341"
+			(at 33.02 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_vo-0402-1-1k_C2889341.html"
+			(at 33.02 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3fce5e8-d7fc-4a81-915b-bba1707ecd27")
 		)
@@ -13641,6 +14334,28 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 39.37 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C25076.html"
+			(at 39.37 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C25076"
+			(at 39.37 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14066,8 +14781,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C781883"
+		(property "Part Number" "C781883"
 			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 64.77 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14151,6 +14877,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C15525.html"
+			(at 158.75 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C15525"
 			(at 158.75 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14312,6 +15060,28 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/MOSFETs_Guangdong-Hottech-AO3400_C181090.html"
+			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C181090"
 			(at 55.88 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14658,6 +15428,17 @@
 			)
 		)
 		(property "TERMINAL" "https://www.lcsc.com/product-detail/C111516.html?s_z=n_q_C111516&globalKeyword=C111516"
+			(at 17.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C295747"
 			(at 17.78 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15332,6 +16113,17 @@
 			)
 		)
 		(property "TERMINAL" "https://www.lcsc.com/product-detail/C160231.html?s_z=n_q_C160231&globalKeyword=C160231"
+			(at 39.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C160404"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
