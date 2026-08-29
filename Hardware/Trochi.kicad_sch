@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "a5119cab-c33d-484e-b542-18705d0dc8d0")
 	(paper "A4")
+	(title_block
+		(title "Trochi")
+		(date "2026-08-29")
+		(rev "V1.0")
+		(company "2j87")
+		(comment 3 "Ankara/Turkey")
+		(comment 4 "Designed by Kerem Bal")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
