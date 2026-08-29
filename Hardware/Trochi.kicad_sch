@@ -2570,7 +2570,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "IIM42352"
+			(property "Footprint" "trochi_footprint:ICM-42688-P"
 				(at 1.27 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6743,7 +6743,7 @@
 		)
 		(uuid "c6fd8912-2afc-4b62-b37c-af5c55a97cb6")
 	)
-	(label "3.3V"
+	(label "+3.3V"
 		(at 143.51 35.56 0)
 		(effects
 			(font
@@ -7805,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IIM42352"
+		(property "Footprint" "trochi_footprint:ICM-42688-P"
 			(at 231.14 143.51 0)
 			(hide yes)
 			(show_name no)

@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IIM42352"
+		(property "Footprint" "trochi_footprint:ICM-42688-P"
 			(at 1.27 0 0)
 			(show_name no)
 			(do_not_autoplace no)
