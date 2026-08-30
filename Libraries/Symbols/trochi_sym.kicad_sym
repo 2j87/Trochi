@@ -1289,7 +1289,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Card"
-			(at 0 8.89 0)
+			(at -2.54 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Value" "TF-021B-H265"
-			(at 0 -11.43 0)
+			(at -2.54 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1309,7 +1309,7 @@
 			)
 		)
 		(property "Footprint" "trochi_footprint:TF-SMD_TF-021B-H265"
-			(at 0 -13.97 0)
+			(at -2.54 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1320,7 +1320,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_SOFNG-TF-021B-H265_C498185.html"
-			(at 0 -16.51 0)
+			(at -2.54 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1342,7 +1342,7 @@
 			)
 		)
 		(property "Manufacturer" "SOFNG(硕方)"
-			(at 0 -19.05 0)
+			(at -2.54 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1353,7 +1353,7 @@
 			)
 		)
 		(property "MPN" "TF-021B-H265"
-			(at 0 -21.59 0)
+			(at -2.54 -24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1364,7 +1364,7 @@
 			)
 		)
 		(property "LCSC Part" "C498185"
-			(at 0 -24.13 0)
+			(at -2.54 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1386,30 +1386,8 @@
 			)
 		)
 		(symbol "TF-021B-H265_0_1"
-			(rectangle
-				(start -11.43 6.35)
-				(end 3.81 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -10.16 5.08)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
-				(at -13.97 3.81 0)
+				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "DAT2"
 					(effects
@@ -1427,7 +1405,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 1.27 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "CD/DAT3"
 					(effects
@@ -1445,7 +1423,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -1.27 0)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(name "CMD"
 					(effects
@@ -1463,7 +1441,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -3.81 0)
+				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1481,7 +1459,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -3.81 180)
+				(at -13.97 -8.89 0)
 				(length 2.54)
 				(name "CLX"
 					(effects
@@ -1499,7 +1477,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -1.27 180)
+				(at 7.62 -6.35 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1517,7 +1495,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 1.27 180)
+				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "DAT0"
 					(effects
@@ -1535,7 +1513,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 3.81 180)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "DAT1"
 					(effects
@@ -1545,6 +1523,37 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TF-021B-H265_1_1"
+			(rectangle
+				(start -11.43 8.89)
+				(end 5.08 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 -8.89 180)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
