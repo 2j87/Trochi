@@ -3676,7 +3676,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Card"
-				(at 0 8.89 0)
+				(at -2.54 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3686,7 +3686,7 @@
 				)
 			)
 			(property "Value" "TF-021B-H265"
-				(at 0 -11.43 0)
+				(at -2.54 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3696,7 +3696,7 @@
 				)
 			)
 			(property "Footprint" "trochi_footprint:TF-SMD_TF-021B-H265"
-				(at 0 -13.97 0)
+				(at -2.54 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3707,7 +3707,7 @@
 				)
 			)
 			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_SOFNG-TF-021B-H265_C498185.html"
-				(at 0 -16.51 0)
+				(at -2.54 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3729,7 +3729,7 @@
 				)
 			)
 			(property "Manufacturer" "SOFNG(硕方)"
-				(at 0 -19.05 0)
+				(at -2.54 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3740,7 +3740,7 @@
 				)
 			)
 			(property "MPN" "TF-021B-H265"
-				(at 0 -21.59 0)
+				(at -2.54 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3751,7 +3751,7 @@
 				)
 			)
 			(property "LCSC Part" "C498185"
-				(at 0 -24.13 0)
+				(at -2.54 -26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3773,30 +3773,8 @@
 				)
 			)
 			(symbol "TF-021B-H265_0_1"
-				(rectangle
-					(start -11.43 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -10.16 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin unspecified line
-					(at -13.97 3.81 0)
+					(at -13.97 1.27 0)
 					(length 2.54)
 					(name "DAT2"
 						(effects
@@ -3814,7 +3792,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -13.97 1.27 0)
+					(at -13.97 -1.27 0)
 					(length 2.54)
 					(name "CD/DAT3"
 						(effects
@@ -3832,7 +3810,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -13.97 -1.27 0)
+					(at -13.97 -6.35 0)
 					(length 2.54)
 					(name "CMD"
 						(effects
@@ -3850,7 +3828,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -13.97 -3.81 0)
+					(at 7.62 6.35 180)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -3868,7 +3846,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 -3.81 180)
+					(at -13.97 -8.89 0)
 					(length 2.54)
 					(name "CLX"
 						(effects
@@ -3886,7 +3864,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 -1.27 180)
+					(at 7.62 -6.35 180)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -3904,7 +3882,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 1.27 180)
+					(at -13.97 6.35 0)
 					(length 2.54)
 					(name "DAT0"
 						(effects
@@ -3922,7 +3900,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 3.81 180)
+					(at -13.97 3.81 0)
 					(length 2.54)
 					(name "DAT1"
 						(effects
@@ -3932,6 +3910,37 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TF-021B-H265_1_1"
+				(rectangle
+					(start -11.43 8.89)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13706,137 +13715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "trochi_sym:TF-021B-H265")
-		(at 106.68 255.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c4f70d3-d4fd-469c-965a-cbe32981b13e")
-		(property "Reference" "Card2"
-			(at 102.87 243.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TF-021B-H265"
-			(at 102.87 246.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "trochi_footprint:TF-SMD_TF-021B-H265"
-			(at 106.68 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_SOFNG-TF-021B-H265_C498185.html"
-			(at 106.68 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SOFNG(硕方)"
-			(at 106.68 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TF-021B-H265"
-			(at 106.68 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C498185"
-			(at 106.68 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37024fcb-8e51-47b9-92f9-5eabcfd5a86c")
-		)
-		(pin "5"
-			(uuid "499317ad-4e50-4c9b-9aef-0f86c3d308fb")
-		)
-		(pin "7"
-			(uuid "ad203876-4656-489e-995b-1e4cdf0d52d3")
-		)
-		(pin "3"
-			(uuid "bcf54445-89df-4c8b-bb7d-a8b0f33a8ea1")
-		)
-		(pin "4"
-			(uuid "42d0cbb0-cc6a-4b67-9d69-1e39c70299ac")
-		)
-		(pin "8"
-			(uuid "46e36292-638b-4c81-9f21-339b82ecda9f")
-		)
-		(pin "6"
-			(uuid "bbefe87c-3144-41f7-87e7-58fcf40b4bc0")
-		)
-		(pin "2"
-			(uuid "120af6cb-5101-479d-9ef6-3f0d70dad4f7")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "Card2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 118.11 49.53 0)
 		(unit 1)
@@ -14682,6 +14560,140 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "trochi_sym:TF-021B-H265")
+		(at 104.14 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1063753-eaae-49e8-8d87-f5ea9b98ffd3")
+		(property "Reference" "Card2"
+			(at 100.965 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TF-021B-H265"
+			(at 100.965 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "trochi_footprint:TF-SMD_TF-021B-H265"
+			(at 101.6 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_SOFNG-TF-021B-H265_C498185.html"
+			(at 101.6 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SOFNG(硕方)"
+			(at 101.6 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TF-021B-H265"
+			(at 101.6 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C498185"
+			(at 101.6 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "845212b7-e8c3-4552-87a6-8e8c0cd29cff")
+		)
+		(pin "1"
+			(uuid "373333ad-1cc1-429d-a864-f8ddb662e259")
+		)
+		(pin "3"
+			(uuid "254ceff5-a0e1-4325-960e-ca0a968fa908")
+		)
+		(pin "4"
+			(uuid "9f0af72b-bfd1-43b2-82a6-136baa665edb")
+		)
+		(pin "5"
+			(uuid "df2eb596-322c-4f91-a726-b1048dabc006")
+		)
+		(pin "8"
+			(uuid "6b0f23a8-7984-47fc-b51e-29b72959f7b9")
+		)
+		(pin "6"
+			(uuid "8c9cebb5-56bd-4a7a-aa3f-856ba01b1981")
+		)
+		(pin "SH"
+			(uuid "2f67d4c3-fb08-4303-95fd-59543cdcea81")
+		)
+		(pin "7"
+			(uuid "e5f9bf54-ebc4-4c65-b2c6-4fa302ffe6bb")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "Card2")
 					(unit 1)
 				)
 			)
