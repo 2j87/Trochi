@@ -1385,8 +1385,19 @@
 				)
 			)
 		)
-		(symbol "TF-021B-H265_0_1"
-			(pin unspecified line
+		(symbol "TF-021B-H265_1_1"
+			(rectangle
+				(start -11.43 8.89)
+				(end 5.08 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
 				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "DAT2"
@@ -1404,7 +1415,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "CD/DAT3"
@@ -1422,7 +1433,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -6.35 0)
 				(length 2.54)
 				(name "CMD"
@@ -1440,7 +1451,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "VDD"
@@ -1458,7 +1469,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -8.89 0)
 				(length 2.54)
 				(name "CLX"
@@ -1476,7 +1487,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 -6.35 180)
 				(length 2.54)
 				(name "VSS"
@@ -1494,7 +1505,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "DAT0"
@@ -1512,7 +1523,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "DAT1"
@@ -1530,20 +1541,7 @@
 					)
 				)
 			)
-		)
-		(symbol "TF-021B-H265_1_1"
-			(rectangle
-				(start -11.43 8.89)
-				(end 5.08 -11.43)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 -8.89 180)
 				(length 2.54)
 				(name "SH"
