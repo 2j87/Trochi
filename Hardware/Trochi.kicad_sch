@@ -12713,8 +12713,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C498185"
+		(property "Part Number" "C498185"
 			(at 135.89 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C498185.html?s_z=n_q_t_sd%2520card&spm=wm.fly.bg.22.xh___wm.ssy.tc.0.tz&lcsc_vid=RwJfAwcCQlFXAgdfFgNeAlIEFQVdBlQHFVEMUVIATwQxVlNeT1BcVVRQT1JWVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAhYQHgILSBUTEhIaDgsI"
+			(at 138.43 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
