@@ -4088,16 +4088,88 @@
 		(uuid "0e3b8baa-01d3-403c-bbd3-2affc45a29a4")
 	)
 	(no_connect
+		(at -62.23 34.29)
+		(uuid "18f4b42b-08a3-4c9c-9a10-fda931f2a9d0")
+	)
+	(no_connect
+		(at -62.23 49.53)
+		(uuid "19d701cc-0ba4-44d0-ac69-e9b29ba5df1e")
+	)
+	(no_connect
+		(at -50.8 46.99)
+		(uuid "1e2aa970-4dfe-4ff4-b9e7-93494c5a2d79")
+	)
+	(no_connect
+		(at -50.8 39.37)
+		(uuid "298cb579-61f5-4f34-8ece-d764d53334c3")
+	)
+	(no_connect
+		(at -62.23 46.99)
+		(uuid "3248e429-0036-48f6-9c0f-d079a94fd340")
+	)
+	(no_connect
+		(at -50.8 44.45)
+		(uuid "433fc0c3-77c7-454e-9ef0-516c6506fd45")
+	)
+	(no_connect
+		(at -50.8 49.53)
+		(uuid "70573bdb-02b2-429d-926b-ff195ee6fb52")
+	)
+	(no_connect
+		(at -50.8 52.07)
+		(uuid "7b65e650-b144-49b1-951f-9e4c37221249")
+	)
+	(no_connect
+		(at -62.23 52.07)
+		(uuid "843887df-baeb-40c9-8ba6-b94f8672f395")
+	)
+	(no_connect
+		(at -50.8 34.29)
+		(uuid "a26b2339-b7f7-4e6e-a70c-c4c84799bd82")
+	)
+	(no_connect
+		(at -62.23 36.83)
+		(uuid "a9ce7a6e-a13f-4f7b-a88a-68c97dc5d3eb")
+	)
+	(no_connect
+		(at -62.23 41.91)
+		(uuid "afb11459-f11e-4467-805f-aa857b302ba5")
+	)
+	(no_connect
+		(at -50.8 54.61)
+		(uuid "b226143c-aa01-4111-912e-c8e50feae984")
+	)
+	(no_connect
+		(at -62.23 44.45)
+		(uuid "c350a13c-41eb-4db0-a6e0-3520e28cf608")
+	)
+	(no_connect
 		(at 95.25 88.9)
 		(uuid "cd750eae-4698-4bb7-b937-1554feeb5b14")
+	)
+	(no_connect
+		(at -62.23 39.37)
+		(uuid "ceef7839-c9d0-4358-b8e7-0dd2036afb20")
 	)
 	(no_connect
 		(at 124.46 161.29)
 		(uuid "cfa1c5c9-ee58-4834-ae78-21de6847876a")
 	)
 	(no_connect
+		(at -62.23 54.61)
+		(uuid "d19b147b-5e0e-4a3c-869c-ca2bac97b436")
+	)
+	(no_connect
+		(at -50.8 41.91)
+		(uuid "e7242556-1932-454e-8fec-ca6a9a5ddd0d")
+	)
+	(no_connect
 		(at 118.11 88.9)
 		(uuid "e80cfb13-86e0-4c41-8b3c-eabe59381591")
+	)
+	(no_connect
+		(at -50.8 36.83)
+		(uuid "f605d5b7-2f93-489f-803d-3b1cec9f2517")
 	)
 	(no_connect
 		(at 95.25 91.44)
@@ -6932,7 +7004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00878408-febc-4ba9-804d-91aaf322dfd0")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 47.244 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,7 +7090,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102d7559-0640-4ee0-9f0f-03f678b6cb53")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 264.16 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7200,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7145,7 +7217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a2ebd3b-99f5-4292-9575-8c00c12c16dd")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 58.42 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -7205,7 +7277,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7222,7 +7294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c232206-8f6e-48b4-bcbc-41fedcfb5344")
-		(property "Reference" "R23"
+		(property "Reference" "R15"
 			(at 124.46 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7380,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R23")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7325,7 +7397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e66797a-7991-40de-96cf-ff54cd395105")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 195.58 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7459,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7404,7 +7476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23d90e73-375f-46b9-97ee-0a15e48274f4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 127 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7464,7 +7536,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7481,7 +7553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28794daa-8ab9-48a7-9a21-bd857bd1d0ae")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 150.368 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7567,7 +7639,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a7de785-8cec-4ff5-bde8-a7bce59023f7")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 139.192 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +7742,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7687,7 +7759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2af48899-d390-47d1-a73a-ad6d74e6246f")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 129.032 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7845,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8025,7 +8097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3034ccb6-84e7-4fac-80b3-7523953e9920")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 88.138 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8089,7 +8161,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8106,7 +8178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32e6bd16-5dbe-41df-b003-e90587f0e7fd")
-		(property "Reference" "R24"
+		(property "Reference" "R14"
 			(at 117.856 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8192,7 +8264,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R24")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8321,7 +8393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "368b8e85-608f-46db-9e05-d4ecbe2b898e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 46.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8381,7 +8453,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8509,7 +8581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41555abe-e2c2-4d8d-9db8-a9b17513cdd4")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 257.81 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8593,7 +8665,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4341b246-5707-4593-a3a7-2c25d901567d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 148.59 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +8821,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490d2ae2-ef10-4ad6-83e4-3a6a51e1d3d0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 260.35 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8904,7 +8976,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8921,7 +8993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a1ba6b1-2a78-4863-b414-88ee02bd9697")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8981,7 +9053,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9210,7 +9282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b45a925-eff8-42a7-879f-76dcc6420ad9")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 205.74 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9302,7 +9374,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9319,7 +9391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bc89d46-8498-4266-a978-c64a95cb7e46")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR05"
 			(at 57.15 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9379,7 +9451,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9396,7 +9468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ccac741-01d1-4da4-b7f2-7d863fc6f0dc")
-		(property "Reference" "C2B"
+		(property "Reference" "C3"
 			(at 59.182 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +9554,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C2B")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9499,7 +9571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63de7f2c-f8b5-4211-9a60-b80c02d09a29")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 79.502 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9585,7 +9657,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9602,7 +9674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "667cb712-0fc5-4566-b6cf-8bceb74e7754")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR025"
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9662,7 +9734,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR045")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9883,7 +9955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c70b540-c397-482e-88c0-18bf7d437b87")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 51.562 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9969,7 +10041,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9986,7 +10058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7671a24a-c6b4-46c6-b26b-a9751b357125")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 96.52 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10046,7 +10118,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10063,7 +10135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77bd2a13-7630-452a-8868-3b9f227a494a")
-		(property "Reference" "C2A"
+		(property "Reference" "C2"
 			(at 49.022 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10221,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C2A")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10166,7 +10238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d367001-a442-466e-8901-7fff43c6f3d1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 137.16 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10226,7 +10298,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e6a68a8-c3f5-4f92-9ce3-9e78bbc27beb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 247.65 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10303,7 +10375,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10320,7 +10392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "812f7d46-e150-453d-9280-32ab78fe255b")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 98.806 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10406,7 +10478,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10424,7 +10496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "839acc83-e3a0-463a-b1f6-a8ea02f3e766")
-		(property "Reference" "Q4"
+		(property "Reference" "Q3"
 			(at 205.74 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10516,7 +10588,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "Q4")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10533,7 +10605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86058731-693d-449d-9123-0954ce566285")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 182.88 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,7 +10667,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10612,7 +10684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8860f3c0-91ac-4d90-b930-56b3516233be")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10672,7 +10744,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10689,7 +10761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ae4fc61-9353-4e77-a830-becd6c694303")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 86.36 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +10821,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10843,7 +10915,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "907fa90f-54b5-4f71-9376-82de5e69b886")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10903,7 +10975,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10920,7 +10992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9395892c-cb81-4478-ade2-a1508c9c7e2e")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 88.392 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11006,7 +11078,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11023,7 +11095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b0679df-ce92-4f8d-8d3d-55088f20f74d")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 182.88 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11157,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11102,7 +11174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d891663-6d23-4949-8b74-4cc0010eeba6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 115.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11162,7 +11234,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11179,7 +11251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e03939e-8059-47bb-b6d3-55b828ae961b")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 264.16 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11263,7 +11335,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11280,7 +11352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a42418b1-c88c-48ba-b8b9-aab92ac4f2dd")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 254 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11342,7 +11414,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7074136-2a5b-4574-98ef-6160912686ea")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR024"
 			(at 110.49 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11419,7 +11491,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR046")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11513,7 +11585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad4d1d45-45e8-4330-947a-108ab57786ef")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 241.3 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11575,7 +11647,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2f7a274-cc0c-476e-b8da-3278ae007c2c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR032"
 			(at 157.48 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11766,7 +11838,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR048")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11783,7 +11855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b43934b1-bf50-4004-bb2a-54f02f8e48c8")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 213.36 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +11919,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11941,7 +12013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d22aa3-71a2-4091-b25f-3f512e4df5af")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 195.58 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12003,7 +12075,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12020,7 +12092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9245ff6-4f1f-485d-bc4b-c5c8bd8043d2")
-		(property "Reference" "R25"
+		(property "Reference" "R13"
 			(at 111.506 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12106,7 +12178,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R25")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12123,7 +12195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcb0b6da-0a20-46fb-968d-a0b534b57599")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 35.56 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12183,7 +12255,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12200,7 +12272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "beb8da38-f76d-44a1-92c3-4c9297d836a7")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 254 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12262,7 +12334,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12279,7 +12351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf74e24c-b1e1-4ac3-a216-47ca1d757713")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 257.81 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12363,7 +12435,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12381,7 +12453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c011f2c7-f062-4756-af63-1eb8a06714b5")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 264.16 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12473,7 +12545,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -12490,7 +12562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0e55cdf-01af-4f34-91d9-d3252b3c02f4")
-		(property "Reference" "C2C"
+		(property "Reference" "C4"
 			(at 69.342 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12648,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C2C")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12671,7 +12743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c52c106d-4e9e-4a85-8ac3-33bf9a09eac4")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 264.16 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12766,7 +12838,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12783,7 +12855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c0ebfc-cd25-403f-8cd8-072f31cce5b6")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 150.622 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12869,7 +12941,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12886,7 +12958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7325b0d-7afb-4e09-9671-f4aa0d6a71c6")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 205.74 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12970,7 +13042,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13099,7 +13171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d03ea73c-7228-4e95-9c77-d7445d828708")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 34.544 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13185,7 +13257,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13203,7 +13275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d181fd51-9da9-4882-ad53-df2232b91c72")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR027"
 			(at 157.48 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13263,7 +13335,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR047")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13280,7 +13352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18cd758-8a7d-4767-bcef-d749cf945166")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 39.37 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13364,7 +13436,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13382,7 +13454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c7992c-0139-4fff-898b-a0577e2b02fc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13442,7 +13514,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13459,7 +13531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d70018cb-4d70-461c-8457-a18f322e7ca2")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 264.16 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13543,7 +13615,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13561,7 +13633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d72ebc2e-23c5-4f87-bdb0-82f0a8437f4a")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at -41.91 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13646,7 +13718,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13663,7 +13735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8c4430b-3995-4966-a74e-986a9468fc60")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 241.3 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13725,7 +13797,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13742,7 +13814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc8b3139-3eaa-40e8-96d2-c2325f267a21")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 33.02 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13802,7 +13874,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13949,7 +14021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5049271-6757-403d-aaa3-34ad5ab860bc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR06"
 			(at 67.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14009,7 +14081,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -14026,7 +14098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9569af7-5601-4f85-93f9-0e79833604cc")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 201.93 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14086,7 +14158,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14103,7 +14175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eacc011d-acf8-49d3-b69f-386ec8f8b948")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 61.214 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14195,7 +14267,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -14212,7 +14284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec0a60ea-5608-49e9-9d13-29705cba41d5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 45.72 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -14272,7 +14344,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14289,7 +14361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed03f7e3-79de-4270-8184-d57cf9b70ea6")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 213.36 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -14349,7 +14421,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14366,7 +14438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eff7f9ca-67b6-498b-a484-e7ad8b6b575f")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR026"
 			(at 123.19 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14426,7 +14498,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR044")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14566,7 +14638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f036b980-d0f9-4e8c-b4bc-39a987bcdd1b")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 205.74 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,7 +14733,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14678,7 +14750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7883368-aa68-4a63-9c1d-abd5d9565d12")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 159.258 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14764,7 +14836,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14921,7 +14993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5c5bd1-8c14-45b7-844a-fab3fb7a11a4")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at -53.34 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15006,7 +15078,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15023,7 +15095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd091031-cb3f-4977-bd69-545497b6cb1f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 77.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15083,7 +15155,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15100,7 +15172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feb1f080-deab-4e98-a55c-7001475d6d7b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR031"
 			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15160,7 +15232,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR049")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
