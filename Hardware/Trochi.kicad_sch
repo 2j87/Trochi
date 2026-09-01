@@ -9407,7 +9407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µF"
+		(property "Value" "22µF"
 			(at 55.372 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10074,7 +10074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µF"
+		(property "Value" "22µF"
 			(at 45.212 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12501,7 +12501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µF"
+		(property "Value" "22µF"
 			(at 65.532 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
