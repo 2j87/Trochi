@@ -7943,6 +7943,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 264.16 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "301f6277-5ec3-4e47-b6a1-f4672a22a60c")
+		(property "Reference" "D2"
+			(at 264.16 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 264.16 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 264.16 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a6cc1dd-06d4-405b-8c90-34f1cf1aa175")
+		)
+		(pin "2"
+			(uuid "78139f58-0ea1-4f5f-8b46-0336594c5cc2")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 74.93 54.61 0)
 		(unit 1)
@@ -9437,7 +9538,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819W"
+		(property "Value" "SS14"
 			(at 205.74 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9447,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 205.74 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -9622,6 +9723,85 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
+		(at 264.16 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70aec3cb-7f03-4f66-a194-a3ea096bc4a0")
+		(property "Reference" "D4"
+			(at 264.16 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 264.16 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 264.16 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 264.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e782985e-b4a3-44df-94f0-c8e2cf912dd0")
+		)
+		(pin "2"
+			(uuid "b9acf481-3730-4124-88e8-060049ba4a60")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
 		(at 53.34 163.83 270)
 		(unit 1)
 		(body_style 1)
@@ -9630,9 +9810,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6c70b540-c397-482e-88c0-18bf7d437b87")
-		(property "Reference" "D4"
-			(at 51.562 162.814 90)
+		(uuid "7411bcfa-c777-4ff4-876b-13c36a1fc532")
+		(property "Reference" "D6"
+			(at 51.562 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9642,8 +9822,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5819W"
-			(at 51.562 165.354 90)
+		(property "Value" "SS14"
+			(at 51.562 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9653,7 +9833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 53.34 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -9687,7 +9867,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 53.34 163.83 0)
+			(at 53.34 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +9878,7 @@
 			)
 		)
 		(property "Part Number" "C2480"
-			(at 53.34 163.83 0)
+			(at 53.34 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9709,15 +9889,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a266072-15f1-47bf-9d08-e7b649aadaf0")
+			(uuid "338880ba-eeef-45a1-91df-a27ed4345dbf")
 		)
 		(pin "2"
-			(uuid "779927ec-bb19-442f-9196-61c71d096b5b")
+			(uuid "cc251a86-c102-4689-8900-83d12f6b1d32")
 		)
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10265,6 +10445,107 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 205.74 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85598665-4703-4d9e-9753-94e9af35a2f7")
+		(property "Reference" "D3"
+			(at 205.74 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 205.74 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 205.74 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d6b342f-1b1b-4d74-828c-1be3247ba0b7")
+		)
+		(pin "2"
+			(uuid "d710302f-a64d-4a8a-a976-8e136c2bd682")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10911,107 +11192,6 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 264.16 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e03939e-8059-47bb-b6d3-55b828ae961b")
-		(property "Reference" "D7"
-			(at 264.16 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819W"
-			(at 264.16 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 264.16 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 264.16 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 264.16 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "C2480"
-			(at 264.16 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74675ce7-8557-4d22-bcd3-aea3c8bd87e8")
-		)
-		(pin "2"
-			(uuid "e64daae1-d320-4336-be0a-7363f638a1ed")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12521,107 +12701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 205.74 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c7325b0d-7afb-4e09-9671-f4aa0d6a71c6")
-		(property "Reference" "D2"
-			(at 205.74 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819W"
-			(at 205.74 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 205.74 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "C2480"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b48bb2e5-ab25-45c4-b332-f4bf07089a93")
-		)
-		(pin "2"
-			(uuid "0895969f-f330-4349-bfb6-1b1eeceee1ae")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 204.47 20.32 90)
 		(unit 1)
@@ -13088,107 +13167,6 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 264.16 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d70018cb-4d70-461c-8457-a18f322e7ca2")
-		(property "Reference" "D3"
-			(at 264.16 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819W"
-			(at 264.16 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 264.16 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 264.16 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 264.16 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "C2480"
-			(at 264.16 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c810141-e7a7-479d-a688-c3ee24546934")
-		)
-		(pin "2"
-			(uuid "b59241fd-4b93-4328-b802-d43c06b9efce")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D3")
 					(unit 1)
 				)
 			)
