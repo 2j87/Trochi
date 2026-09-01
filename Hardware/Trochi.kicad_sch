@@ -171,222 +171,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
 				(offset 1.016)
@@ -4819,12 +4603,20 @@
 		(uuid "0e3b8baa-01d3-403c-bbd3-2affc45a29a4")
 	)
 	(no_connect
+		(at 95.25 88.9)
+		(uuid "cd750eae-4698-4bb7-b937-1554feeb5b14")
+	)
+	(no_connect
 		(at 124.46 161.29)
 		(uuid "cfa1c5c9-ee58-4834-ae78-21de6847876a")
 	)
 	(no_connect
 		(at 118.11 88.9)
 		(uuid "e80cfb13-86e0-4c41-8b3c-eabe59381591")
+	)
+	(no_connect
+		(at 95.25 91.44)
+		(uuid "f9b19ade-ebf8-462c-bdec-9792e8ba791a")
 	)
 	(wire
 		(pts
@@ -4955,16 +4747,6 @@
 			(type default)
 		)
 		(uuid "0f4e49f7-1271-48f5-babf-6a67cddf4dd3")
-	)
-	(wire
-		(pts
-			(xy 92.71 91.44) (xy 95.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7e6b1e-354a-4ca1-9c70-7468f155fb17")
 	)
 	(wire
 		(pts
@@ -5418,16 +5200,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 86.36) (xy 34.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af3c5c4-67c3-4b8e-a19b-d04a0876211e")
-	)
-	(wire
-		(pts
 			(xy 107.95 38.1) (xy 107.95 35.56)
 		)
 		(stroke
@@ -5475,16 +5247,6 @@
 			(type default)
 		)
 		(uuid "41f332f6-7a95-49ce-90c6-8487a70fdbec")
-	)
-	(wire
-		(pts
-			(xy 34.29 88.9) (xy 33.02 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4270fe48-7f6e-4a16-8d9d-ef709295c670")
 	)
 	(wire
 		(pts
@@ -5778,16 +5540,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 34.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688dc60a-b57f-4972-aa4d-1f1a1fbe7444")
-	)
-	(wire
-		(pts
 			(xy 81.28 60.96) (xy 81.28 62.23)
 		)
 		(stroke
@@ -5875,16 +5627,6 @@
 			(type default)
 		)
 		(uuid "705ca0a5-fe6c-4c09-8d53-2ac7cf568e8d")
-	)
-	(wire
-		(pts
-			(xy 33.02 88.9) (xy 33.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f556a9-8a13-48b0-8b13-8179954e5f18")
 	)
 	(wire
 		(pts
@@ -6015,16 +5757,6 @@
 			(type default)
 		)
 		(uuid "8226fe04-348a-4749-91e7-09d4e97cf7a4")
-	)
-	(wire
-		(pts
-			(xy 92.71 88.9) (xy 95.25 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83624d7a-cb2d-47b0-89ee-a7ea2abc1161")
 	)
 	(wire
 		(pts
@@ -6548,16 +6280,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 81.28) (xy 33.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee62e11-dc46-4db2-bd81-9c1b0870843c")
-	)
-	(wire
-		(pts
 			(xy 213.36 146.05) (xy 213.36 148.59)
 		)
 		(stroke
@@ -7036,16 +6758,6 @@
 		)
 		(uuid "febc5c27-ab33-40c4-9a14-e6403b6b36f1")
 	)
-	(wire
-		(pts
-			(xy 30.48 93.98) (xy 34.29 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5e86ea-5dc6-4ba7-9bdf-172720703f23")
-	)
 	(label "VBAT"
 		(at 62.23 35.56 0)
 		(effects
@@ -7140,30 +6852,6 @@
 			)
 		)
 	)
-	(global_label "RC_TX"
-		(shape input)
-		(at 92.71 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08cf08d5-f04d-4266-a3ee-95573f26a688")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.0401 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI_MOSI"
 		(shape input)
 		(at 92.71 101.6 180)
@@ -7177,30 +6865,6 @@
 		(uuid "1b9d4111-8c48-4d0c-bce9-e37c34a1f365")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.0767 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RC_RX"
-		(shape input)
-		(at 30.48 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28b38b3b-549e-4392-8432-d4fa15d6be3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5077 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7273,30 +6937,6 @@
 		(uuid "36d19218-f6c9-4a7a-b818-b840db266db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.3082 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RC_TX"
-		(shape input)
-		(at 30.48 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ae5c779-9a4e-4aa0-b8ad-7fbe176c2f4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.8101 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7617,30 +7257,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "RC_RX"
-		(shape input)
-		(at 92.71 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ef62487-0e65-4d56-aab0-3a23ea75d5d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.7377 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -8948,84 +8564,6 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 33.02 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e46c3e6-4747-47d1-b52e-bd3035577e27")
-		(property "Reference" "#PWR015"
-			(at 33.02 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 33.02 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 33.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ba0d0bc-610f-4800-bd5f-906b8fe30efb")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11304,7 +10842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14944,83 +14482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 33.02 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd073a78-5640-4b50-8658-a3ead38d906a")
-		(property "Reference" "#PWR017"
-			(at 33.02 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 33.02 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a60bff4-dd09-496c-a445-dd17341887fa")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "YX-SMD5020_1")
 		(lib_id "trochi_sym:YX-SMD5020")
 		(at 64.77 161.29 0)
@@ -16373,138 +15834,6 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 39.37 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fedea324-b9af-4ba7-97f1-24f79213aa60")
-		(property "Reference" "J6"
-			(at 41.91 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SH"
-			(at 41.91 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "trochi_footprint:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/C160404.html?s_z=n_q_C160404&globalKeyword=C160404"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MALE" "https://www.lcsc.com/product-detail/C394367.html?s_z=n_q_C394367&globalKeyword=C394367"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TERMINAL" "https://www.lcsc.com/product-detail/C160231.html?s_z=n_q_C160231&globalKeyword=C160231"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "C160404"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ceb2b2b-a45c-4527-be04-510c79b73303")
-		)
-		(pin "2"
-			(uuid "7274dccd-4a10-46f1-8e72-64113e862f1d")
-		)
-		(pin "3"
-			(uuid "84c85e78-1c51-4dc4-87fb-6012c49590ec")
-		)
-		(pin "4"
-			(uuid "5e511d05-7b58-4b1f-b9c6-fc6b6b967e12")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "J6")
 					(unit 1)
 				)
 			)
