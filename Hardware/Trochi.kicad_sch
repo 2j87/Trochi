@@ -3812,22 +3812,10 @@
 		(uuid "0fd4692f-9ed8-4a1b-9d84-b03ff57d3034")
 	)
 	(junction
-		(at 88.9 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "118e08a7-9d58-4475-aabb-cb3533f826d6")
-	)
-	(junction
 		(at 247.65 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b57cbb0-1417-4966-8a31-85f7b40de0f9")
-	)
-	(junction
-		(at 64.77 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29ead12e-02ea-43f4-b552-c7a7112426de")
 	)
 	(junction
 		(at 260.35 101.6)
@@ -3836,10 +3824,28 @@
 		(uuid "2b301fc0-bd85-43a5-ac4f-36f8c0755708")
 	)
 	(junction
+		(at 53.34 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3491627b-a2ed-40f1-a765-a6b0e3e20c13")
+	)
+	(junction
 		(at 148.59 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53e236fa-6eab-4c6b-b5ef-07e0228e9bc3")
+	)
+	(junction
+		(at 92.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f33afb-5b9e-43a4-85fa-689b44068423")
+	)
+	(junction
+		(at 73.66 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ac44bd7-653b-4831-ab30-cfaec746274a")
 	)
 	(junction
 		(at 209.55 83.82)
@@ -3902,6 +3908,12 @@
 		(uuid "88ca64ee-5598-4c15-a442-acf2f95b385d")
 	)
 	(junction
+		(at 31.75 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce3541d-a6aa-4c6a-80b5-b5f6dccfd784")
+	)
+	(junction
 		(at 201.93 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3920,12 +3932,6 @@
 		(uuid "aa8ad4fe-6e06-4deb-ab94-ddbda4657219")
 	)
 	(junction
-		(at 101.6 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad2f3dfc-2937-41d2-b9e2-f0b69712d3e1")
-	)
-	(junction
 		(at 157.48 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3938,10 +3944,22 @@
 		(uuid "b37bfbe3-ce90-46e7-99e6-51a890647dff")
 	)
 	(junction
+		(at 63.5 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b41df689-7de8-4efc-9622-a49a54d31054")
+	)
+	(junction
 		(at 133.35 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bddb7457-1767-4fd7-ac87-bd7ca018621a")
+	)
+	(junction
+		(at 82.55 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bedd0f7e-2fd8-4145-b389-8636e7e1ee8d")
 	)
 	(junction
 		(at 201.93 101.6)
@@ -3950,13 +3968,7 @@
 		(uuid "bf8149ff-99d2-4f67-b307-5f06f9af6d04")
 	)
 	(junction
-		(at 74.93 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0f2bdf8-6a46-4310-a350-c8fd51093664")
-	)
-	(junction
-		(at 74.93 45.72)
+		(at 82.55 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2942f7b-3f47-4d79-9532-b8c22a2d765a")
@@ -3968,10 +3980,16 @@
 		(uuid "c43a259c-41ba-40bb-b631-1a9c704a9b46")
 	)
 	(junction
-		(at 52.07 31.75)
+		(at 101.6 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cc817d64-ac25-4c94-920b-a8dd846aad86")
+		(uuid "c78d9fea-d1ff-4b1a-a22e-0ef617eb0ca5")
+	)
+	(junction
+		(at 43.18 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc46db61-6766-4bd7-8ae7-798e37c51ed4")
 	)
 	(junction
 		(at 201.93 83.82)
@@ -4038,12 +4056,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c7f5ad-daeb-4a6d-a5a3-7d872941de67")
-	)
-	(junction
-		(at 40.64 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f62134b6-47f6-4d7d-a1b0-ea1e291a7498")
 	)
 	(junction
 		(at 264.16 148.59)
@@ -4143,7 +4155,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 39.37) (xy 64.77 40.64)
+			(xy 73.66 39.37) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4233,7 +4245,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 74.93 52.07)
+			(xy 82.55 45.72) (xy 82.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4253,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 34.29)
+			(xy 31.75 31.75) (xy 31.75 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4293,6 +4305,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 39.37) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189b3b1f-0e95-4eac-8a2d-474304779136")
+	)
+	(wire
+		(pts
 			(xy 212.09 135.89) (xy 215.9 135.89)
 		)
 		(stroke
@@ -4310,6 +4332,16 @@
 			(type default)
 		)
 		(uuid "1a5e0eb6-6bc8-4699-b569-61d0372a07a6")
+	)
+	(wire
+		(pts
+			(xy 63.5 31.75) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba337a0-a21c-4f2d-b46d-c92eec883e9b")
 	)
 	(wire
 		(pts
@@ -4350,16 +4382,6 @@
 			(type default)
 		)
 		(uuid "1fa57058-de2d-454a-83c4-5925e18cc728")
-	)
-	(wire
-		(pts
-			(xy 52.07 31.75) (xy 64.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a27875-da6d-412b-bbd3-b0d8a58e0a97")
 	)
 	(wire
 		(pts
@@ -4420,6 +4442,16 @@
 			(type default)
 		)
 		(uuid "2413d62b-bd3b-4fe9-abe0-c0c30f9fd6f9")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25397b54-5302-4066-97e6-014c29eb4113")
 	)
 	(wire
 		(pts
@@ -4553,7 +4585,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 40.64) (xy 30.48 34.29)
+			(xy 25.4 40.64) (xy 25.4 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4593,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 26.67 34.29)
+			(xy 25.4 34.29) (xy 21.59 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4603,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 64.77 34.29)
+			(xy 73.66 31.75) (xy 73.66 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4623,7 +4655,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 39.37) (xy 40.64 40.64)
+			(xy 31.75 39.37) (xy 31.75 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4650,16 +4682,6 @@
 			(type default)
 		)
 		(uuid "3f51637b-289b-4645-a2f4-a6f52e4213e8")
-	)
-	(wire
-		(pts
-			(xy 88.9 45.72) (xy 92.71 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9ae1e8-c375-4762-ac8d-073adc657279")
 	)
 	(wire
 		(pts
@@ -4813,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 45.72) (xy 88.9 52.07)
+			(xy 92.71 45.72) (xy 92.71 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4843,7 +4865,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 52.07 40.64)
+			(xy 43.18 39.37) (xy 43.18 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4973,7 +4995,27 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 74.93 58.42)
+			(xy 53.34 31.75) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6203a4ba-0d8c-4c02-878c-8655267bc78b")
+	)
+	(wire
+		(pts
+			(xy 53.34 31.75) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d081e2-5fd8-4ef9-ae35-cd5a3e46ac97")
+	)
+	(wire
+		(pts
+			(xy 82.55 57.15) (xy 82.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4993,7 +5035,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 74.93 45.72)
+			(xy 82.55 39.37) (xy 82.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5023,23 +5065,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 57.15) (xy 88.9 58.42)
+			(xy 92.71 57.15) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fdecf56-06dd-4406-993b-748616537703")
-	)
-	(wire
-		(pts
-			(xy 64.77 31.75) (xy 74.93 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fdef6b9-588c-4b81-af93-0557572e0a93")
 	)
 	(wire
 		(pts
@@ -5083,6 +5115,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 31.75) (xy 99.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7501e356-9437-4938-b561-a9ba769fe716")
+	)
+	(wire
+		(pts
 			(xy 110.49 147.32) (xy 110.49 149.86)
 		)
 		(stroke
@@ -5113,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 74.93 34.29)
+			(xy 82.55 31.75) (xy 82.55 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5183,16 +5225,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 99.06 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83a339ef-a09d-4a47-8b7e-aea9f056d5c8")
-	)
-	(wire
-		(pts
 			(xy 53.34 166.37) (xy 53.34 167.64)
 		)
 		(stroke
@@ -5220,6 +5252,16 @@
 			(type default)
 		)
 		(uuid "86c7d019-3de0-47df-ab26-f07331e9e17d")
+	)
+	(wire
+		(pts
+			(xy 73.66 31.75) (xy 82.55 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871c6e48-fd22-4b60-9a65-4239e34afc8c")
 	)
 	(wire
 		(pts
@@ -5311,6 +5353,16 @@
 		)
 		(uuid "93e0be56-5f1d-4b97-abfa-d89704637c7b")
 	)
+	(wire
+		(pts
+			(xy 63.5 39.37) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94df5ffb-9611-4bb1-a70d-9fec90625f5e")
+	)
 	(polyline
 		(pts
 			(xy 87.122 142.494) (xy 87.122 127.508)
@@ -5370,6 +5422,16 @@
 			(type default)
 		)
 		(uuid "9af16853-9dd5-43c6-8b38-eafaf6bcb73b")
+	)
+	(wire
+		(pts
+			(xy 43.18 31.75) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0b9c54-effc-4395-a54b-219d3362289b")
 	)
 	(wire
 		(pts
@@ -5433,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 31.75) (xy 40.64 31.75)
+			(xy 21.59 31.75) (xy 31.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5533,6 +5595,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 31.75) (xy 73.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd9bba5-b960-4ad5-a71d-c5db9b4b7048")
+	)
+	(wire
+		(pts
 			(xy 92.71 99.06) (xy 95.25 99.06)
 		)
 		(stroke
@@ -5593,16 +5665,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 52.07 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a1c68b-fe28-4ffd-9c0b-709b631b7447")
-	)
-	(wire
-		(pts
 			(xy 176.53 45.72) (xy 180.34 45.72)
 		)
 		(stroke
@@ -5623,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 52.07 34.29)
+			(xy 43.18 31.75) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5773,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 88.9 45.72)
+			(xy 82.55 45.72) (xy 92.71 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6110,6 +6172,16 @@
 			(type default)
 		)
 		(uuid "fb623632-9e0c-47b5-bd46-0ccb843766e4")
+	)
+	(wire
+		(pts
+			(xy 31.75 31.75) (xy 43.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdd6edd-4771-41a2-93f6-8c552b198f1e")
 	)
 	(wire
 		(pts
@@ -6515,7 +6587,7 @@
 	)
 	(global_label "VBAT_SENSE"
 		(shape input)
-		(at 92.71 45.72 0)
+		(at 95.25 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6525,7 +6597,7 @@
 		)
 		(uuid "78bf82b1-bd54-46f3-9b93-b1d2a90ebeb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.1251 45.72 0)
+			(at 109.6651 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,109 +8015,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 264.16 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "301f6277-5ec3-4e47-b6a1-f4672a22a60c")
-		(property "Reference" "D2"
-			(at 264.16 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 264.16 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 264.16 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 264.16 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 264.16 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "C2480"
-			(at 264.16 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a6cc1dd-06d4-405b-8c90-34f1cf1aa175")
-		)
-		(pin "2"
-			(uuid "78139f58-0ea1-4f5f-8b46-0336594c5cc2")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 54.61 0)
+		(at 82.55 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8055,7 +8026,7 @@
 		(dnp no)
 		(uuid "3034ccb6-84e7-4fac-80b3-7523953e9920")
 		(property "Reference" "R8"
-			(at 76.708 53.34 0)
+			(at 84.328 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8066,7 +8037,7 @@
 			)
 		)
 		(property "Value" "100KΩ"
-			(at 76.708 55.88 0)
+			(at 84.328 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8077,7 +8048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 54.61 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,7 +8059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 54.61 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8099,7 +8070,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 74.93 54.61 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8341,7 +8312,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 52.07 40.64 0)
+		(at 43.18 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8351,7 +8322,7 @@
 		(dnp no)
 		(uuid "368b8e85-608f-46db-9e05-d4ecbe2b898e")
 		(property "Reference" "#PWR05"
-			(at 52.07 46.99 0)
+			(at 43.18 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +8333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 44.45 0)
+			(at 43.18 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8372,7 +8343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 40.64 0)
+			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8383,7 +8354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 40.64 0)
+			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8394,7 +8365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 52.07 40.64 0)
+			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8941,7 +8912,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 30.48 40.64 0)
+		(at 25.4 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8951,7 +8922,7 @@
 		(dnp no)
 		(uuid "4a1ba6b1-2a78-4863-b414-88ee02bd9697")
 		(property "Reference" "#PWR03"
-			(at 30.48 46.99 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 44.45 0)
+			(at 25.4 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8972,7 +8943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 40.64 0)
+			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +8954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 40.64 0)
+			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +8965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 30.48 40.64 0)
+			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9338,8 +9309,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 36.83 0)
+		(lib_id "power:Earth")
+		(at 53.34 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9347,31 +9318,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "63de7f2c-f8b5-4211-9a60-b80c02d09a29")
-		(property "Reference" "C3"
-			(at 66.802 35.56 0)
+		(uuid "5bc89d46-8498-4266-a978-c64a95cb7e46")
+		(property "Reference" "#PWR015"
+			(at 53.34 46.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10µF"
-			(at 66.802 38.1 0)
+		(property "Value" "GND"
+			(at 53.34 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 64.77 36.83 0)
+		(property "Footprint" ""
+			(at 53.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +9352,188 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 36.83 0)
+			(at 53.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 53.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e42499-d9e1-40b0-a38d-8e11ed982788")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 53.34 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ccac741-01d1-4da4-b7f2-7d863fc6f0dc")
+		(property "Reference" "C2B"
+			(at 55.372 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF"
+			(at 55.372 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C15008.html"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C15008"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5cd3d34c-2679-4e0f-bb10-0d493397db36")
+		)
+		(pin "1"
+			(uuid "2b95049e-c735-42c9-a789-a10113d584fd")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "C2B")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 73.66 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63de7f2c-f8b5-4211-9a60-b80c02d09a29")
+		(property "Reference" "C3"
+			(at 75.692 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 75.692 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 73.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9544,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 36.83 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9555,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C15525.html"
-			(at 64.77 36.83 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9415,7 +9566,7 @@
 			)
 		)
 		(property "Part Number" "C15525"
-			(at 64.77 36.83 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9689,7 @@
 				)
 			)
 		)
-		(property "Value" "SS14"
+		(property "Value" "1N5819W"
 			(at 205.74 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9548,7 +9699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -9620,7 +9771,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 36.83 0)
+		(at 31.75 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9630,7 +9781,7 @@
 		(dnp no)
 		(uuid "69d1d049-2485-477c-93d8-eefd43cf86cb")
 		(property "Reference" "C1"
-			(at 42.672 35.56 0)
+			(at 33.782 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9641,7 +9792,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 42.672 38.1 0)
+			(at 33.782 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9652,7 +9803,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 40.64 36.83 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9663,7 +9814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 36.83 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,7 +9825,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 40.64 36.83 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9685,7 +9836,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
-			(at 40.64 36.83 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,7 +9847,7 @@
 			)
 		)
 		(property "Part Number" "C1525"
-			(at 40.64 36.83 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,85 +9874,6 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 264.16 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70aec3cb-7f03-4f66-a194-a3ea096bc4a0")
-		(property "Reference" "D4"
-			(at 264.16 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 264.16 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 264.16 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 264.16 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e782985e-b4a3-44df-94f0-c8e2cf912dd0")
-		)
-		(pin "2"
-			(uuid "b9acf481-3730-4124-88e8-060049ba4a60")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
 		(at 53.34 163.83 270)
 		(unit 1)
 		(body_style 1)
@@ -9810,9 +9882,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7411bcfa-c777-4ff4-876b-13c36a1fc532")
-		(property "Reference" "D6"
-			(at 51.562 162.56 90)
+		(uuid "6c70b540-c397-482e-88c0-18bf7d437b87")
+		(property "Reference" "D4"
+			(at 51.562 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9822,8 +9894,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SS14"
-			(at 51.562 165.1 90)
+		(property "Value" "1N5819W"
+			(at 51.562 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9833,7 +9905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -9867,7 +9939,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 53.34 163.83 90)
+			(at 53.34 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9878,7 +9950,7 @@
 			)
 		)
 		(property "Part Number" "C2480"
-			(at 53.34 163.83 90)
+			(at 53.34 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9889,15 +9961,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "338880ba-eeef-45a1-91df-a27ed4345dbf")
+			(uuid "1a266072-15f1-47bf-9d08-e7b649aadaf0")
 		)
 		(pin "2"
-			(uuid "cc251a86-c102-4689-8900-83d12f6b1d32")
+			(uuid "779927ec-bb19-442f-9196-61c71d096b5b")
 		)
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9905,7 +9977,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 88.9 58.42 0)
+		(at 92.71 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9915,7 +9987,7 @@
 		(dnp no)
 		(uuid "7671a24a-c6b4-46c6-b26b-a9751b357125")
 		(property "Reference" "#PWR014"
-			(at 88.9 64.77 0)
+			(at 92.71 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9926,7 +9998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 62.23 0)
+			(at 92.71 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9936,7 +10008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 58.42 0)
+			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,7 +10019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 58.42 0)
+			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9958,7 +10030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 88.9 58.42 0)
+			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9982,7 +10054,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 52.07 36.83 0)
+		(at 43.18 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9991,8 +10063,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77bd2a13-7630-452a-8868-3b9f227a494a")
-		(property "Reference" "C2"
-			(at 54.102 35.56 0)
+		(property "Reference" "C2A"
+			(at 45.212 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10003,7 +10075,7 @@
 			)
 		)
 		(property "Value" "100µF"
-			(at 54.102 38.1 0)
+			(at 45.212 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10014,7 +10086,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 52.07 36.83 0)
+			(at 43.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,7 +10097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 36.83 0)
+			(at 43.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10036,7 +10108,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 52.07 36.83 0)
+			(at 43.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10047,7 +10119,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C15008.html"
-			(at 52.07 36.83 0)
+			(at 43.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10058,7 +10130,7 @@
 			)
 		)
 		(property "Part Number" "C15008"
-			(at 52.07 36.83 0)
+			(at 43.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10077,7 +10149,7 @@
 		(instances
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "C2")
+					(reference "C2A")
 					(unit 1)
 				)
 			)
@@ -10239,7 +10311,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 54.61 0)
+		(at 92.71 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10249,7 +10321,7 @@
 		(dnp no)
 		(uuid "812f7d46-e150-453d-9280-32ab78fe255b")
 		(property "Reference" "C7"
-			(at 91.186 53.34 0)
+			(at 94.996 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10260,7 +10332,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 91.186 55.88 0)
+			(at 94.996 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10271,7 +10343,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 88.9 54.61 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10282,7 +10354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 54.61 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10293,7 +10365,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 88.9 54.61 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10304,7 +10376,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C1525.html"
-			(at 88.9 54.61 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,7 +10387,7 @@
 			)
 		)
 		(property "Part Number" "C1525"
-			(at 88.9 54.61 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10445,107 +10517,6 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 205.74 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85598665-4703-4d9e-9753-94e9af35a2f7")
-		(property "Reference" "D3"
-			(at 205.74 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 205.74 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 205.74 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "C2480"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d6b342f-1b1b-4d74-828c-1be3247ba0b7")
-		)
-		(pin "2"
-			(uuid "d710302f-a64d-4a8a-a976-8e136c2bd682")
-		)
-		(instances
-			(project "Trochi"
-				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10709,7 +10680,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 74.93 58.42 0)
+		(at 82.55 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10719,7 +10690,7 @@
 		(dnp no)
 		(uuid "8ae4fc61-9353-4e77-a830-becd6c694303")
 		(property "Reference" "#PWR013"
-			(at 74.93 64.77 0)
+			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10730,7 +10701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 62.23 0)
+			(at 82.55 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10740,7 +10711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 58.42 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +10722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 58.42 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +10733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 74.93 58.42 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,7 +10911,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 36.83 0)
+		(at 82.55 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10950,7 +10921,7 @@
 		(dnp no)
 		(uuid "9395892c-cb81-4478-ade2-a1508c9c7e2e")
 		(property "Reference" "R3"
-			(at 76.962 35.56 0)
+			(at 84.582 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10961,7 +10932,7 @@
 			)
 		)
 		(property "Value" "100KΩ"
-			(at 76.962 38.1 0)
+			(at 84.582 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10972,7 +10943,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 36.83 0)
+			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10983,7 +10954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 36.83 0)
+			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10994,7 +10965,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 74.93 36.83 0)
+			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +10976,7 @@
 			)
 		)
 		(property "Part Number" "C60491"
-			(at 74.93 36.83 0)
+			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +10987,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C60491.html"
-			(at 74.93 36.83 0)
+			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,6 +11163,107 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 264.16 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e03939e-8059-47bb-b6d3-55b828ae961b")
+		(property "Reference" "D7"
+			(at 264.16 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819W"
+			(at 264.16 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 264.16 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
+			(at 264.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74675ce7-8557-4d22-bcd3-aea3c8bd87e8")
+		)
+		(pin "2"
+			(uuid "e64daae1-d320-4336-be0a-7363f638a1ed")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12042,7 +12114,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 40.64 40.64 0)
+		(at 31.75 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12052,7 +12124,7 @@
 		(dnp no)
 		(uuid "bcb0b6da-0a20-46fb-968d-a0b534b57599")
 		(property "Reference" "#PWR04"
-			(at 40.64 46.99 0)
+			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12063,7 +12135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 44.45 0)
+			(at 31.75 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12073,7 +12145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 40.64 0)
+			(at 31.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12084,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 40.64 0)
+			(at 31.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12095,7 +12167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 40.64 40.64 0)
+			(at 31.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12408,6 +12480,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 63.5 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0e55cdf-01af-4f34-91d9-d3252b3c02f4")
+		(property "Reference" "C2C"
+			(at 65.532 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF"
+			(at 65.532 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 63.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 63.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C15008.html"
+			(at 63.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C15008"
+			(at 63.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae05c631-03fb-4ddd-a05c-b69588efced8")
+		)
+		(pin "1"
+			(uuid "5af34322-19bb-4532-b6ce-525dc3292c9e")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "C2C")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 251.46 127 0)
 		(unit 1)
@@ -12695,6 +12870,107 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 205.74 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7325b0d-7afb-4e09-9671-f4aa0d6a71c6")
+		(property "Reference" "D2"
+			(at 205.74 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819W"
+			(at 205.74 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 205.74 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
+			(at 205.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b48bb2e5-ab25-45c4-b332-f4bf07089a93")
+		)
+		(pin "2"
+			(uuid "0895969f-f330-4349-bfb6-1b1eeceee1ae")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13173,6 +13449,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 264.16 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d70018cb-4d70-461c-8457-a18f322e7ca2")
+		(property "Reference" "D3"
+			(at 264.16 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819W"
+			(at 264.16 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 264.16 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 264.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2480.html"
+			(at 264.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C2480"
+			(at 264.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c810141-e7a7-479d-a688-c3ee24546934")
+		)
+		(pin "2"
+			(uuid "b59241fd-4b93-4328-b802-d43c06b9efce")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
 		(at -45.72 44.45 0)
 		(unit 1)
@@ -13556,6 +13933,83 @@
 			(project "Trochi"
 				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 63.5 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5049271-6757-403d-aaa3-34ad5ab860bc")
+		(property "Reference" "#PWR017"
+			(at 63.5 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 63.5 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9eb3e5ba-695e-4793-96fe-1f7c3dfb0cb5")
+		)
+		(instances
+			(project "Trochi"
+				(path "/a5119cab-c33d-484e-b542-18705d0dc8d0"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13980,7 +14434,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 21.59 34.29 180)
+		(at 16.51 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13990,7 +14444,7 @@
 		(dnp no)
 		(uuid "f000548a-8554-4d16-9949-c73be55486f1")
 		(property "Reference" "J3"
-			(at 21.59 26.416 0)
+			(at 16.51 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14000,7 +14454,7 @@
 			)
 		)
 		(property "Value" "JST PH"
-			(at 21.59 28.702 0)
+			(at 16.51 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14010,7 +14464,7 @@
 			)
 		)
 		(property "Footprint" "trochi_footprint:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14021,7 +14475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14032,7 +14486,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14043,7 +14497,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C295747.html?s_z=n_q_C295747&globalKeyword=C295747"
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14054,7 +14508,7 @@
 			)
 		)
 		(property "MALE" "https://www.lcsc.com/product-detail/C157955.html?s_z=n_q_C157955&globalKeyword=C157955"
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14065,7 +14519,7 @@
 			)
 		)
 		(property "TERMINAL" "https://www.lcsc.com/product-detail/C111516.html?s_z=n_q_C111516&globalKeyword=C111516"
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14076,7 +14530,7 @@
 			)
 		)
 		(property "Part Number" "C295747"
-			(at 21.59 34.29 0)
+			(at 16.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14560,7 +15014,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 64.77 40.64 0)
+		(at 73.66 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14570,7 +15024,7 @@
 		(dnp no)
 		(uuid "fd091031-cb3f-4977-bd69-545497b6cb1f")
 		(property "Reference" "#PWR06"
-			(at 64.77 46.99 0)
+			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14581,7 +15035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 44.45 0)
+			(at 73.66 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14591,7 +15045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 40.64 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14602,7 +15056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 40.64 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14613,7 +15067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 64.77 40.64 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
