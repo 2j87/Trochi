@@ -640,7 +640,7 @@
         "uuid": "a5119cab-c33d-484e-b542-18705d0dc8d0"
       }
     ],
-    "used_designators": "U1-4,#PWR1-34,D1-7,C1-13,C2B1,C2C1,R1-17,#FLG1,Card1,IC1,J1-7,Q1-5",
+    "used_designators": "#PWR23,#PWR28,#PWR35-39,C14",
     "variants": []
   },
   "sheets": [
